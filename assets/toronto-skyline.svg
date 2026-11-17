@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Toronto skyline in winter</title>
+  <desc id="desc">A dark blue illustrated skyline with the CN Tower, windows, snowbanks, and streetlights.</desc>
+  <defs>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fcff"/>
+      <stop offset="1" stop-color="#b9d7e8"/>
+    </linearGradient>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#173e68"/>
+      <stop offset="1" stop-color="#071629"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 640 Q180 580 330 625 T660 620 T980 615 T1300 622 T1600 602 V760 H0Z" fill="url(#snow)"/>
+  <g fill="url(#city)">
+    <path d="M0 455H95V650H0Z M82 390H185V650H82Z M164 468H270V650H164Z"/>
+    <path d="M248 338H354V650H248Z M335 425H455V650H335Z M430 305H540V650H430Z"/>
+    <path d="M520 392H635V650H520Z M618 442H730V650H618Z"/>
+    <path d="M930 410H1048V650H930Z M1026 320H1136V650H1026Z M1112 448H1228V650H1112Z"/>
+    <path d="M1200 360H1318V650H1200Z M1292 420H1410V650H1292Z M1386 300H1515V650H1386Z M1492 400H1600V650H1492Z"/>
+  </g>
+  <g fill="#ffd36a" opacity=".82">
+    <path d="M116 430h18v13h-18z M154 430h18v13h-18z M282 382h18v13h-18z M320 382h18v13h-18z"/>
+    <path d="M469 350h18v13h-18z M507 350h18v13h-18z M560 432h18v13h-18z M598 432h18v13h-18z"/>
+    <path d="M967 458h18v13h-18z M1005 458h18v13h-18z M1062 370h18v13h-18z M1100 370h18v13h-18z"/>
+    <path d="M1240 405h18v13h-18z M1278 405h18v13h-18z M1425 348h18v13h-18z M1465 348h18v13h-18z"/>
+  </g>
+  <g fill="#0a1c31">
+    <path d="M785 106l9-63 9 63h-18z"/>
+    <path d="M775 106h38l17 200h-72z"/>
+    <ellipse cx="794" cy="257" rx="69" ry="22"/>
+    <path d="M768 273h52l35 377H733z"/>
+    <path d="M720 650h150v18H720z"/>
+  </g>
+  <g stroke="#dff3ff" stroke-width="9" stroke-linecap="round" opacity=".9">
+    <path d="M758 310h72 M744 408h100 M732 510h124"/>
+  </g>
+  <g stroke="#0a1c31" stroke-width="8" fill="none">
+    <path d="M65 615v-132 M56 492h18"/>
+    <path d="M1520 615v-132 M1511 492h18"/>
+  </g>
+  <g fill="#ffd36a">
+    <circle cx="65" cy="480" r="15"/>
+    <circle cx="1520" cy="480" r="15"/>
+  </g>
+  <path d="M0 664 Q220 630 420 668 T820 658 T1220 668 T1600 650 V760H0Z" fill="#e8f6ff" opacity=".88"/>
+</svg>
